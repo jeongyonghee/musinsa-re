@@ -1,0 +1,135 @@
+ <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 :: 무신사스토어</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/slick.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="inner">
+            <h1><a href="index.html">MUSINSA STORE</a></h1>
+            <div class="membership">
+                <a href="login.html">로그인</a>
+                <a href="join.html">회원가입</a>
+            </div>
+        </div>
+        <nav id="nav">
+                <ul class="depth1">
+                    <li><a href="#">랭킹</a>
+                        <ul class="depth2">
+                            <li><a href="#">인기상품</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">NEW</a>
+                        <ul class="depth2">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">신상품</a></li>
+                            <li><a href="#">재입고</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">브랜드</a>
+                        <ul class="depth2">
+                            <li><a href="#">인기 브랜드</a></li>
+                            <li><a href="#">입점</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">스타일</a>
+                        <ul class="depth2">
+                            <li><a href="#">코디숍</a></li>
+                            <li><a href="#">코디맵</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">스페셜</a>
+                        <ul class="depth2">
+                            <li><a href="#">스페셜 이슈</a></li>
+                            <li><a href="#">단독상품</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">세일</a>
+                        <ul class="depth2">
+                            <li><a href="#">세일</a></li>
+                            <li><a href="#">타임세일</a></li>
+                            <li><a href="#">클리어런스</a></li>
+                            <li><a href="#">기획전</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">이벤트/쿠폰</a>
+                        <ul class="depth2">
+                            <li><a href="#">래플</a></li>
+                            <li><a href="#">랜덤 쿠폰</a></li>
+                            <li><a href="#">990원 이벤트</a></li>
+                            <li><a href="#">친구 초대</a></li>
+                            <li><a href="#">체험단</a></li>
+                            <li><a href="#">사은품</a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </nav>
+        <div class="search">
+            <form action="#" method="post" name="searchbox">
+                <fieldset>
+                    <input type="text" class="w300px">
+                    <button><i class="fas fa-search"></i></button>
+                </fieldset>
+            </form>
+            <div id="searchpopup">
+            
+            </div>
+        </div>
+        <ul class="rollingtext">
+            <li>1위 : lmc</li>
+            <li>2위 : 뉴발란스</li>
+            <li>3위 : 나이키</li>
+            <li>4위 : 갤럭시 버즈</li>
+            <li>5위 : z플립3</li>
+            <li>6위 : 갤럭시워치</li>
+            <li>7위 : 에어팟 프로</li>
+            <li>8위 : 아디다스</li>
+            <li>9위 : 퓨마</li>
+            <li>10위 : mmlg</li>
+        </ul>
+    </header>
+    <section id="loginPage">
+        <div class="loginTop">
+            <h2 class="inner">MEMBER</h2>
+        </div>
+        <div class="loginBox inner">
+            <h3>로그인</h3>
+            <div class="loginWrap">
+                <div class="loginForm">
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend>로그인</legend>
+                            <p>
+                                <label for="pid">아이디</label>
+                                <input type="text" name="pid" id="pid">
+                            </p>
+                            <p>
+                                <label for="ppw">비밀번호</label>
+                                <input type="password" name="ppw" id="ppw">
+                            </p>
+                            <button type="submit">로그인</button>
+                    </form>
+                    <p class="bemember"><a href="#">비회원 주문</a></p>
+                </div>
+                <div class="idpwfind">
+                    <p>-아이디를 잊으셨나요? <a href="#">아이디 찾기</a></p>
+                    <p>-비밀번호를 잊으셨나요?<a href="#">비밀번호 찾기</a></p>              
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./js/login.js"></script>
+
+</body>
+</html>
