@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+.boardTop{
+    background-image: url(../img/sub-visual04.jpg);
+    margin:0;
+    padding:120px;
+    background-position-y:-90px;
+    /* background-size:cover; */
+}
+.boardTop h2{
+    font-size:48px;
+    font-weight:normal;
+    color:#fff;
+    text-align: center;
+} 
+
+.boardBox{
+    font-weight:500;
+    color:#222;
+    margin:50px auto 50px;
+}
+.boardBox h3{
+    text-align: center;
+    font-size:36px;
+    font-weight:normal;
+}
+.boardBox .info{
+    text-align: center;
+    font-size:13px;
+    color:#999;
+    margin:5px 0 45px 0;
+}
+.boardWrap table{
+    font-size:15px;
+    color:#777;
+    margin-bottom:40px;
+}
+
+.boardWrap table th,
+.boardWrap table td{
+    border:1px solid #ccc;
+    padding:15px 5px 15px 5px;
+    border-left:none;
+    border-right:none;
+}
+
+.boardWrap table th{
+    color:#555;
+    font-weight:bold;
+    text-align: center;
+    background-color:#f7f7f7;
+    border-top:3px solid #666;
+}
+.boardWrap table td{
+    color:#777;
+}
+
+.boardWrap table td:first-child,
+.boardWrap table td:last-child{
+    text-align: center;
+}
+.boardWrap col:nth-child(1){
+    width:120px;
+}
+.boardWrap col:nth-child(2){
+    width:auto;
+
+}
+.boardWrap col:nth-child(3){
+    width:200px;
+}
+
+.boardWrap fieldset select{
+    font-size:13px;
+    padding:4px 5px 4px 5px;
+    border:1px solid #aaa;
+    font-weight: 500;
+}
+.boardWrap fieldset input,
+.boardWrap fieldset button{
+    padding:5px;
+    border:1px solid #aaa;
+    font-weight: 500;
+    font-size:13px;
+}

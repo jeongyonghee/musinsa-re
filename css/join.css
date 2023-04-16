@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+
+.joinTop{
+    background-image: url(../img/join.jpg);
+    margin:0;
+    padding:120px;
+    /* background-position-y:-90px; */
+    /* background-size:cover; */
+}
+.joinTop h2{
+    font-size:48px;
+    font-weight:normal;
+    color:#fff;
+    text-align: center;
+} 
+.joinBox{
+    font-weight:500;
+    color:#222;
+    margin:50px auto 50px;
+}
+.joinBox h3{
+    text-align: center;
+    font-size:36px;
+    font-weight:normal;
+}
+.joinBox .info{
+    text-align: center;
+    font-size:13px;
+    color:#999;
+    margin:5px 0 45px 0;
+}
+.joinBox .welcome{
+    border:1px solid #b2b2b2;
+    padding:25px;
+    margin: 0 0 30px 0;
+}
+.joinBox .welcome > h4{
+    font-size:22px;
+    font-weight:bold;
+    color:#555;
+    margin:0 0 10px 0;
+}
+.joinBox .welcome > p{
+    font-size:15px;
+    color:#787878;
+    margin:5px 0 0 0;
+}
+.joinBox .welcometwo{
+    padding:25px;
+    margin:0 0 30px 0;
+    background:#eee;
+}
+.joinBox .welcometwo > h4{
+    font-size:17px;
+    font-weight:bold;
+    color:#555;
+    margin: 0 0 5px 0;
+}
+.joinBox .welcometwo > p{
+    font-size:15px;
+    color:#787878;
+    margin:5px 0 0 0;
+}
+.joinBox legend{
+    display:block;
+    color:#777;
+    font-weight:bold;
+} 
+.joinWrap col:nth-child(1){width:130px;}
+.joinWrap col:nth-child(2){width:auto;}
+
+.joinWrap #pid + button{
+    background-color:#d7ba9a;
+    color:#fff;
+    padding:3px 3px;
+    border-radius:12px;
+    font-size:10px;
+    border:none;
+    margin-right:5px;
+}
+
+.joinWrap th,
+.joinWrap td{
+    border:1px solid #000;
+    border-top-color: rgb(229, 229, 229);
+    border-right-color: rgb(229, 229, 229);
+    border-bottom-color: rgb(229, 229, 229);
+    border-left-color: rgb(229, 229, 229);
+    padding:10px;
+}
+.joinWrap th{
+    background-color:rgb(247, 247,247);
+    font-size:12px;
+    color:rgb(0,0,0);
+}
+.joinWrap td{
+    padding-left:10;
+    font-size:12px;
+
+}
+.joinWrap table span{
+    display:block;
+}
+
+.joinWrap fieldset{padding:20px 0;}
+.joinWrap .exinfo{
+    border-bottom:1px solid #777;
+}
+.btn{text-align:center;}
+.btn button{
+    padding:10px 20px;
+    margin:0px 5px;
+}
+.btn button[type="submit"]{
+    background-color:#555;
+    color:#fff;
+}
+.btn button[type="reset"]{
+    background-color:#787878;
+    color:#fff;
+}

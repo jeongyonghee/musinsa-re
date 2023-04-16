@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/* #loginPage{padding-top:88px;} */
+.loginTop{ 
+    background-image:url(../img/loginbackground.jpg);
+    margin:0;
+    padding:120px;
+    background-size:cover;   
+    background-repeat: no-repeat;
+    background-position: top center;
+} 
+.loginTop h2{
+    font-size:48px;
+    font-weight:normal;
+    color:#fff;
+    text-align: center;
+} 
+
+.loginBox{
+    font-weight:500;
+    color:#222;
+    margin:50px auto 50px;
+}
+.loginBox h3{
+    text-align: center;
+    font-size:36px;
+    font-weight:normal;
+}
+.loginBox .info{
+    text-align: center;
+    font-size:13px;
+    color:#999;
+    margin:5px 0 45px 0;
+}
+.loginForm{
+    text-align:center;
+    border-bottom:1px solid #ebebeb;
+    position:relative;
+    padding-bottom:40px;
+    padding-right:150px;
+    
+}
+.loginForm label{
+    width:80px;
+    text-align: right;
+}
+.loginForm p{margin:10px 0;}
+.loginForm input{
+    height:30px;
+    width:200px;
+    border:1px solid #ddd;
+    background-color:#eee;
+}
+.loginWrap{
+    border:1px solid #ebebeb;
+    padding:40px;
+}
+.loginForm button{
+    width:80px;
+    height:70px;
+    border:#777 1px solid;
+    background:#000;
+    color:#fff;
+    position:absolute;
+    top:10px;
+    left:50%;
+    transform: translateX(80px);
+}
+
+.bemember{padding-top:20px; text-align: center; }
+
+.bemember > a{
+    border:1px solid black;
+    padding:10px 20px;
+    margin-left:90px;
+}
+
+.idpwfind{
+    text-align: center;
+    padding-top:40px;
+    font-size:12px;
+}
+.idpwfind p{
+    margin:20px 0;
+}
+.idpwfind a{
+    border-radius: 3px;
+    padding:3px 10px;
+    background:#000;
+    color:#fff;
+    margin-left:10px;
+}  
